@@ -1,0 +1,238 @@
+/* General Styles */
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+    background: #f57035; 
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #f57035;
+    color: #fff;
+}
+
+section {
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    font-size: 1.1rem;
+}
+
+.hr {
+    width: 2rem;
+    border: 3px solid #5C9DC0;
+    border-radius: 3px;
+}
+
+span.fa-icon {
+    font-size: 6rem;
+    color: #5C9DC0;
+    text-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fa-contact {
+    /* font-size: 2rem; */
+    color: #5C9DC0;
+    text-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* NavBar */
+nav {
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all .5s ;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #f57035 !important;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+} 
+
+nav.scrollUp {
+  transform: translateY(-50px);
+}
+
+/* Hero Header */
+
+#about {
+    padding-top: 2rem;
+}
+
+.header-title {
+    font-size: 5rem;
+}
+
+.hero {
+    /* padding-top: 5rem; */
+    background-image: linear-gradient(rgba(255,255,255, .4), rgba(86, 70, 38, .6)), url(/img/hero_img-min.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#how {
+    background-image: linear-gradient(rgba(245, 112, 53, .8), rgba(10, 8, 19, .9)), url(/img/cat_dog_grass_cuddle-min.jpg);
+}
+
+.img-overlay {
+    color: #fff;
+    padding: 4rem 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Benefits Styles */
+
+#benefits {
+    padding: 1rem 4rem;
+}
+
+#whiskers {
+    width: 70%;
+}
+
+.benefit-title {
+    color: #5C9DC0;
+    text-align: center;
+    margin: 2rem 0 1rem 0 ;
+    text-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.savings-table-header {
+    background-color: #5C9DC0;
+    color: #fff;
+    box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.toy-logo {
+    width: 80%;
+}
+
+/* Footer */
+.footer {
+    background-color: #EEEEEE;
+    padding: 1rem 3rem;
+    font-size: 0.8rem;
+}
+
+.footer-contact {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.fa-contact {
+    font-size: 1.1rem;
+    color: #5C9DC0;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: .5rem .5rem .5rem 0;
+}
+
+/* Contact Page */
+
+.contact-hero {
+    padding-top: 5rem;
+    background-image: linear-gradient(rgba(135, 135, 135, .55), rgba(135, 135, 135, .6)), url(/img/cshero-min.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30vh;
+}
+
+.contact-title {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.pricing {
+    font-size: 2rem;
+}
+
+.trial-price {
+    font-size: 4rem;
+}
+
+/* Checkout Modal */
+
+.modal-footer {
+    justify-content: flex-start !important;
+}
+
+.checkout-form, .checkout-form input  {
+    font-size: 0.9em;
+}
+
+.checkout-form input[type=submit]  {
+    font-size: 1.2em;
+}
+
+/* SM View Styles */
+@media (max-width: 575.98px) { 
+
+    .navbar-brand {
+        margin: 0;
+        max-width: 10rem;
+    }
+
+    .brand {
+        width: 100%;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    .email {
+        font-size: 1rem;
+    }
+
+    #benefits {
+        padding: 1rem 1rem;
+    }
+
+    #whiskers {
+        width: 100%;
+    }
+
+    .footer-contact {
+        font-weight: 300;
+        font-size: 0.7rem;
+    }
+    
+    .fa-contact {
+        font-size: 0.9rem;
+        color: #5C9DC0;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+        margin: .5rem .5rem .5rem 0;
+    }
+
+    .trial-price {
+        font-size: 2rem;
+    }
+
+    .trial-time {
+        font-size: 1.4rem;
+    }
+
+}
+
+
